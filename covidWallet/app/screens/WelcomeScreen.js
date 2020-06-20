@@ -6,7 +6,6 @@ import PrimaryButton from '../components/PrimaryButton';
 import { PRIMARY_COLOR } from '../theme/Colors';
 import ImageBoxComponent from '../components/ImageBoxComponent';
 import TextComponent from '../components/TextComponent';
-
 const img = require('../assets/images/t&c.png');
 
 var radio_props = [
@@ -32,6 +31,7 @@ function WelcomeScreen({ navigation }) {
     }
     else {
       navigation.navigate('SecurityScreen');
+      
     }
   }
 
